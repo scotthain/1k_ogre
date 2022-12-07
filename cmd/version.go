@@ -5,7 +5,7 @@ package cmd
 
 import (
 	"fmt"
-	"scotthain/ogre/common/ogre"
+	v "scotthain/ogre/internal"
 
 	"github.com/spf13/cobra"
 )
@@ -21,7 +21,7 @@ var versionCmd = &cobra.Command{
 }
 
 func printVersion() {
-	fmt.Println(ogre.Version())
+	fmt.Println(v.Version())
 }
 
 func init() {
