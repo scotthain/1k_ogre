@@ -30,7 +30,7 @@ func main() {
 
 	print("WHAT IS ", inc_artifact.Dependencies[0].Name)
 
-	dat, err := os.ReadFile("/tmp/dat")
+	dat, err := os.ReadFile("./fixtures/tarball.")
 	if err != nil {
 		panic(err)
 	}
