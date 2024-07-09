@@ -1,5 +1,5 @@
 /*
-Copyright © 2022 Scott Hain elejia@gmail.com
+Copyright © 2024 Scott Hain <elejia@gmail.com>
 */
 package version
 

@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# Test fixtures, should have these somewhere reliable
+fixtures/
+
 # Test binary, built with `go test -c`
 *.test
 
